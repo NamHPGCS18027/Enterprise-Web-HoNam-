@@ -1,0 +1,14 @@
+From: SystemNotification <quangdungnguyen147@gmail.com>
+Date: Sun, 17 Apr 2022 00:58:32 +0700
+Subject: Email Confirmation Link
+Message-Id: <TB08VECJLGU4.LZ33BQ86O4A13@desktop-tqj1137>
+Sender: SystemNotification <quangdungnguyen147@gmail.com>
+To: QuangDung2000@gmail.com
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+
+Hello, user QuangDung
+This is a mail contain confirmation link for your Registration
+Please click the link below to confirm your email:
+
+https://localhost:44353/api/AuthManagement/ConfirmEmail?token=CfDJ8I05j9PbR2lEgu7%2BmbkyJyZPLRniX3dZwRf6CLOdk0%2FKTraxo9Tx0H%2BLz%2FrmOQvIBy9DYfhB9bQmTh6i36yKXlWLejXp1XdXWhlYuNXNEtnetEPc6Fj%2B0CLyXgpq%2BH6H4KkjKcnpCzMDBWuxtJLpyvJCazG6eYHWUiZGaKVa5pqmAeIMbVY5O4lbMZD32CATXickfJ%2FJjjYT%2F%2Ba5y%2FDhL9Ar%2B71e1oB7qEKv9bdIDSzTaS7nAwvtLcczizi7RUlPaQ%3D%3D&email=QuangDung2000@gmail.com

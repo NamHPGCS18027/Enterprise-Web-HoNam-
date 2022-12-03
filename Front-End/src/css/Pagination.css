@@ -1,0 +1,14 @@
+.pagination {
+    display: inline-block;
+    margin-left: 40%;
+  }
+  
+  .pagination .page-item {
+    color: black;
+    float: left;
+    padding: 5px 10px;
+    text-decoration: none;
+  }
+  .page-link{
+      width: 30px;
+  }

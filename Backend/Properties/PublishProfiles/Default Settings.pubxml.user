@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdmYqMlAi0ki6IoQ0D2aU4gAAAAACAAAAAAAQZgAAAAEAACAAAADm15EFtMI7C6TMAluAGsvr/YzKWo1SOOw1jaYmAASQegAAAAAOgAAAAAIAACAAAAAMgEvn/FBPSdaUqJCG7i7Fc0ZEhx/vsFrkIubwDRKsyjAAAABXsyUNdkomPD3ThkMGDwNgKojUJZkF7NfNw+0jLSoediBmVCK/H5Qtn5G12TX7eKBAAAAACq2RqzzQYWRItwcA9QdNGUs8tYFNcj+/+FOlTBcOwaeZulCp9ArUZngusToi+jkwQ7h4wpqzqtpwLQ48WNeOBQ==</EncryptedPassword>
+    <History>True|2022-04-16T00:05:21.4564810Z;True|2022-04-16T05:20:17.6444629+07:00;True|2022-04-16T04:52:55.9676357+07:00;True|2022-04-16T00:19:24.4553217+07:00;False|2022-04-16T00:16:51.6841209+07:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="SmarterASPNETConnection">
+      <Value>Data Source=SQL8001.site4now.net%3bInitial Catalog=db_a85948_webenterprisedb%3bUser Id=db_a85948_webenterprisedb_admin%3bPassword=1475369.Canhthin</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="WebEnterprise_mssql.Api.Data.ApiDbContext">
+      <Value>Data Source=SQL8001.site4now.net%3bInitial Catalog=db_a85948_webenterprisedb%3bUser Id=db_a85948_webenterprisedb_admin%3bPassword=1475369.Canhthin</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

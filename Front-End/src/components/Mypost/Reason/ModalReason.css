@@ -1,0 +1,109 @@
+.modalBackground {
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    top: 0;
+    top: 0;
+    left: 250px;
+    height: 100vh;
+    width: calc(100% - 250px);
+    overflow: auto;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);
+}
+.modalContainer{
+    background-color: rgb(228, 239, 250);
+    border-radius: 5px;
+    position: relative;
+    background-color: #ffffffdc;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.5s;
+    animation-name: animatetop;
+    animation-duration: 0.5s;
+}
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+  
+  @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+.xbtn{
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 30px;
+    font-weight: bold;
+}
+      
+.xbtn:hover, .xbtn:focus {
+    color: red;
+    cursor: pointer;
+}
+
+.modaltitle{
+    text-align: center;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.modalinput1{
+    /* text-align: center; */
+    margin-bottom: 20px;
+
+}
+
+.inputtitle{
+    font-weight: 300;
+}
+
+.inputvl2{
+    width: 98%;
+    height: 250px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    background-color: #ffffff;
+    resize: none;
+    margin-left: 10px;
+    
+}
+
+.cancelBtn{
+    height: 50px;
+    width: 100px;
+    margin: 12px;
+    transition: var(--tran-03);
+    border-radius: 3px;
+}
+
+.SubmitBtn1{
+    height: 50px;
+    width: 100px;
+    margin: 12px;
+    margin-left: 45%;
+    transition: var(--tran-03);
+    border-radius: 3px;
+    
+}
+
+.cancelBtn:hover , .SummitBtn1:hover{
+    background-color: red;
+}
+
+.cancelBtn:hover , .SummitBtn1:hover{
+    color: var(--sidebar-color);
+}
+.checkbox{
+ margin-left: 13px;
+}

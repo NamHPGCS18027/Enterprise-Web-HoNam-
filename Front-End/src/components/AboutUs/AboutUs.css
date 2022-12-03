@@ -1,0 +1,123 @@
+.About{
+    position: absolute;
+    top: 0;
+    top: 0;
+    left: 250px;
+    height: 100vh;
+    width: calc(100% - 250px);
+    background-color: var(--body-color);
+    transition: var(--tran-05);
+}
+.About .text{
+    font-size: 30px;
+    font-weight: 500;
+    color: var(--text-color);
+    padding: 12px 60px;
+}
+
+.About .card-body_1{
+   
+    /* background-color: white; */
+    text-align: left;
+    margin-right: 50px;
+    margin-left: 60px;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+ .About .card-body_2{
+  
+    /* background-color: white; */
+    margin-right: 50px;
+    margin-left: 60px;
+    margin-top: 80px;
+    padding: 10px;
+    padding: 10px;
+    text-align: center;
+} 
+.About .button{
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 10px;
+}
+.About .button .INTRODUCTION{
+  font-family: 'Raleway', Arial, sans-serif;
+  border: none;
+  background-color: yellow;
+  border-radius: 5px;
+  color: black;
+  cursor: pointer;
+  padding: 0px 30px;
+  display: inline-block;
+  margin: 15px 30px;
+  text-transform: uppercase;
+  line-height: 46px;
+  font-weight: 400;
+  font-size: 1em;
+  outline: none;
+  position: relative;
+  overflow: hidden;
+  font-size: 16px;
+  border-radius: 2px;
+  letter-spacing: 2px;
+  box-sizing: border-box;
+  margin-right: 10px;
+} 
+.About .button .INTRODUCTION:hover{
+    background-color: var(--primary-color);
+}
+
+.About .button .HISTORY{
+    font-family: 'Raleway', Arial, sans-serif;
+    border: none;
+    background-color: yellow;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+    padding: 0px 30px;
+    display: inline-block;
+    margin: 15px 30px;
+    text-transform: uppercase;
+    line-height: 46px;
+    font-weight: 400;
+    font-size: 1em;
+    outline: none;
+    position: relative;
+    overflow: hidden;
+    font-size: 16px;
+    border-radius: 2px;
+    letter-spacing: 2px;
+    box-sizing: border-box;
+    margin-left: 0px;
+    margin-right: 10px;
+}
+.About .button .HISTORY:hover{
+    background-color: var(--primary-color);
+}
+
+.About .button .INVESTORRELATIONS{
+    font-family: 'Raleway', Arial, sans-serif;
+    border: none;
+    background-color: yellow;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+    padding: 0px 30px;
+    display: inline-block;
+    margin: 15px 30px;
+    text-transform: uppercase;
+    line-height: 46px;
+    font-weight: 400;
+    font-size: 1em;
+    outline: none;
+    position: relative;
+    overflow: hidden;
+    font-size: 16px;
+    border-radius: 2px;
+    letter-spacing: 2px;
+    box-sizing: border-box;
+    margin-left: 0px;
+}
+.About .button .INVESTORRELATIONS:hover{
+    background-color: var(--primary-color);
+}

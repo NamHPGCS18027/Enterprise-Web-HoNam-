@@ -1,0 +1,135 @@
+
+.Managementpage{
+    position: absolute;
+    top: 0;
+    top: 0;
+    left: 250px;
+    height: 100vh;
+    width: calc(100% - 250px);
+    background-color: var(--body-color);
+    transition: var(--tran-05);
+
+}
+.Managementpage .text{
+    font-size: 30px;
+    font-weight: 500;
+    color: var(--text-color);
+    padding: 12px 60px;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #000000;
+    text-align: left;
+    padding: 8px;
+  }
+.tableuser{
+    background-color: #ffffff;
+    border-left: 10px;
+}
+.manage-header{
+    display: flex;
+    margin-right: 50px;
+    margin-left: 400px;
+    padding: 10px;
+    margin-top: 10px;
+}
+.Add-user-bt{
+    height: 50px;
+    width: 100px;
+    margin-top: 10px;
+    transition: var(--tran-03);
+    border-radius: 3px;
+}
+.submit-user {
+    list-style: none;
+    height: 100%;
+    background-color: #f8f8f8;
+    align-items: center;
+    width: 80px;
+    border-radius: 3px;
+    text-decoration: none;
+    transition: var(--tran-03);
+    font-weight: 500;
+}
+.submit-user:hover, .Add-user-bt:hover {
+    background-color: var(--primary-color);
+}
+.submit-user:hover, .Add-user-bt:hover {
+    color: var(--sidebar-color);
+}
+
+.Managementpage .buttonMana{
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.Managementpage .buttonMana .buttonAccount{
+    font-family: 'Raleway', Arial, sans-serif;
+    border: none;
+    background-color: yellow;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+    padding: 0px 30px;
+    display: inline-block;
+    margin: 15px 30px;
+    text-transform: uppercase;
+    line-height: 46px;
+    font-weight: 400;
+    font-size: 1em;
+    outline: none;
+    position: relative;
+    overflow: hidden;
+    font-size: 16px;
+    border-radius: 2px;
+    letter-spacing: 2px;
+    box-sizing: border-box;
+    margin-left: 0px;
+}
+.Managementpage .buttonMana .buttonAccount:hover{
+    background-color: var(--primary-color);
+}
+
+.Managementpage .buttonMana .buttonDeadline{
+    font-family: 'Raleway', Arial, sans-serif;
+    border: none;
+    background-color: yellow;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+    padding: 0px 30px;
+    display: inline-block;
+    margin: 15px 30px;
+    text-transform: uppercase;
+    line-height: 46px;
+    font-weight: 400;
+    font-size: 1em;
+    outline: none;
+    position: relative;
+    overflow: hidden;
+    font-size: 16px;
+    border-radius: 2px;
+    letter-spacing: 2px;
+    box-sizing: border-box;
+    margin-left: 0px;
+}
+.Managementpage .buttonMana .buttonDeadline:hover{
+    background-color: var(--primary-color);
+}
+
+.Managementpage .buttonAddUser {
+    margin-right: 10px;
+    margin-left: 100px;
+    padding: 10px;
+    margin-top: 2px;
+    margin-bottom: 30px;
+}
+.Btncreate{
+    display: inline-block;
+}

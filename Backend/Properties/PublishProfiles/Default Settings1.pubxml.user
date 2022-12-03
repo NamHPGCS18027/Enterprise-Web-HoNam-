@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAxCHaTrMF6U6n56501HIS+AAAAAACAAAAAAAQZgAAAAEAACAAAAAeMt1ERwPcOYBz+LeqX4jTon/wmc5xI4HVm5HL0kQzyAAAAAAOgAAAAAIAACAAAACioJhpA3JyF3QY6Q+M4HReLCuc0noMHFLVdg8uHyvb1zAAAADCOwE/egMbxJQMpHvHM45DmWDrS4jBO8WmMqs7gb3+szjMv0a1n0VdBvRl6Pfd74pAAAAAXDwxPd3x/GFkfI1muOdYaChCYAOE90n9ePzdrSSqD5azPClpiSACoJAHDsN0G0psG6w2MKsNthsicTgHeJ2+EQ==</EncryptedPassword>
+    <History>True|2022-04-24T06:52:22.2279745Z;True|2022-04-23T03:02:51.0865705+07:00;False|2022-04-23T03:02:35.3083428+07:00;False|2022-04-23T03:02:01.9409187+07:00;True|2022-04-23T02:46:00.4645279+07:00;True|2022-04-23T02:40:42.5974427+07:00;False|2022-04-23T02:39:58.5793754+07:00;False|2022-04-23T02:39:28.0380793+07:00;True|2022-04-23T02:34:48.2825427+07:00;False|2022-04-23T02:32:42.7886483+07:00;True|2022-04-23T00:53:56.1970689+07:00;True|2022-04-23T00:21:10.1419452+07:00;False|2022-04-23T00:20:01.5375769+07:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="SmarterASPNETConnection">
+      <Value>Data Source=SQL8001.site4now.net%3bInitial Catalog=db_a85948_productiondb%3bUser Id=db_a85948_productiondb_admin%3bPassword=QuangDung123456789</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>
